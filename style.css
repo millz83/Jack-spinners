@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100vh;
+    flex-direction: column;
+   
+}
+.spinners {
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+grid-auto-rows: 130px;
+place-items:center;
+
+}
+
+.jack-spinner1  {
+    width:50px;
+    height:50px;
+    color:#f03355;
+    --c:radial-gradient(farthest-side,currentColor 92%,#0000);
+    background: 
+      var(--c) 50% 0   /12px 12px,
+      var(--c) 50% 100%/12px 12px,
+      var(--c) 100% 50%/12px 12px,
+      var(--c) 0    50%/12px 12px,
+      var(--c) 50%  50%/12px 12px,
+      linear-gradient(currentColor 0 0) 50% 50%/4px 100%,
+      linear-gradient(currentColor 0 0) 50% 50%/100% 4px;
+    background-repeat:no-repeat;
+    animation:s8 1s infinite linear;
+  }
+  @keyframes s8 {to{transform: rotate(.5turn)}}
+  
+
+
+
+  .jack-spinner2 {
+    width:50px;
+    height:50px;
+    color:#c1e444;
+    --c:radial-gradient(farthest-side,currentColor 92%,#0000);
+    background: 
+      var(--c) 50% 0   /12px 12px,
+      var(--c) 50% 100%/12px 12px,
+      var(--c) 100% 50%/12px 12px,
+      var(--c) 0    50%/12px 12px,
+      var(--c) 50%  50%/12px 12px,
+      linear-gradient(currentColor 0 0) 50% 50%/4px 100%,
+      linear-gradient(currentColor 0 0) 50% 50%/100% 4px;
+    background-repeat:no-repeat;
+    animation:s8 1s infinite linear;
+  }
+  @keyframes s8 {to{transform: rotate(.5turn)}}
+
+
+
+
+  .jack-spinner3 {
+    width:50px;
+    height:50px;
+    color:#1b11a7;
+    --c:radial-gradient(farthest-side,currentColor 92%,#0000);
+    background: 
+      var(--c) 50% 0   /12px 12px,
+      var(--c) 50% 100%/12px 12px,
+      var(--c) 100% 50%/12px 12px,
+      var(--c) 0    50%/12px 12px,
+      var(--c) 50%  50%/12px 12px,
+      linear-gradient(currentColor 0 0) 50% 50%/4px 100%,
+      linear-gradient(currentColor 0 0) 50% 50%/100% 4px;
+    background-repeat:no-repeat;
+    animation:s8 1s infinite linear;
+  }
+  @keyframes s8 {to{transform: rotate(.5turn)}}
+
+
+
+
